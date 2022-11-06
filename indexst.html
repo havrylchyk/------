@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Розклад</title>
+</head>
+<body>
+<div class="container mx font-sans">
+<div>
+<div class="flex justify-center my-3">
+    <div class="flex flex-row justify-between w-4/6">
+        <p class="font-semibold">Розклад</p>
+            <p class="flex justify-items-inline text-stone-400"><a class="drop-shadow-2xl" href="#">детальніше</a><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /><!--chevron-right-->
+            </svg></p> 
+    </div>
+</div>
+<div class="flex justify-center">
+    <div class="flex flex-row h-12 justify-between w-4/6">
+        <button class="text-xl text-white rounded-tl-2xl basis-1/5 bg-gradient-to-r from-purple-500 to-indigo-500">ПОНЕДІЛОК</button>
+        <button class="text-xl rounded-none basis-1/5 text-indigo-500 hover:bg-gradient-to-r from-purple-500 to-indigo-500 hover:text-white focus:bg-gradient-to-r from-purple-500 to-indigo-500 focus:text-white">ВІВТОРОК</button>
+        <button class="text-xl rounded-none basis-1/5 text-indigo-500 hover:bg-gradient-to-r from-purple-500 to-indigo-500 hover:text-white focus:bg-gradient-to-r from-purple-500 to-indigo-500 focus:text-white">СЕРЕДА</button>
+        <button class="text-xl rounded-none basis-1/5 text-indigo-500 hover:bg-gradient-to-r from-purple-500 to-indigo-500 hover:text-white focus:bg-gradient-to-r from-purple-500 to-indigo-500 focus:text-white">ЧЕТВЕР</button>
+        <button class="text-xl rounded-tr-2xl basis-1/5 text-indigo-500 hover:bg-gradient-to-r from-purple-500 to-indigo-500 hover:text-white focus:bg-gradient-to-r from-purple-500 to-indigo-500 focus:text-white">П'ЯТНИЦЯ</button>
+    </div>
+</div>
+</div>
+
+<div class="flex justify-center">
+    <table class="table-auto w-4/6 rounded-2xl bg-white drop-shadow-2xl">
+    <thead class="h-12 text-white">
+        <tr class="bg-gradient-to-r from-purple-500 to-indigo-500 text-lg">
+          <th class="font-normal px-8">#</th>
+          <th class="font-normal text-left">ПРЕДМЕТ</th>
+          <th class="font-normal text-left">ВИКЛАДАЧ</th>
+          <th class="font-normal">ГРУПА</th>
+          <th class="font-normal">ЧАС</th>
+          <th class="font-normal">АУДИТОРІЯ</th>
+          <th class="font-normal">ПОКЛИКАННЯ</th>
+        </tr>
+    </thead>
+    <tbody class="">
+        <tr class="border-b-2 h-12 text-center">
+          <th class="font-normal text-center">1</th>
+          <th class="font-normal text-left">ФІЗИКА</th>
+          <td class="text-left">ВИКЛАДАЧ Ф.Ф.</td>
+          <td class="">КН-21</td>
+          <td class="">09:00 - 10:20</td>
+          <td class="">№9</td>
+          <td class="text-indigo-500 text-center"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
+        </svg></a></td><!--link-->
+        </tr>
+        <tr class="border-b-2 h-12 text-center">
+            <th class="font-normal text-center">2</th>
+            <th class="font-normal text-left">МАТ. АНАЛІЗ</th>
+            <td class="text-left">ВИКЛАДАЧ Ф.Ф.</td>
+            <td class="">КН-21</td>
+            <td class="">09:00 - 10:20</td>
+            <td class="">№9</td>
+            <td class="text-indigo-500 text-center"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
+            </svg></a></td><!--link-->
+          </tr>
+          <tr class="border-b-2 h-12 text-center">
+            <th class="font-normal">3</th>
+            <th class="font-normal text-left">ОСНОВИ ПЕДАГОГІКИ<br>ТА ПСИХОЛОГІЇ</th>
+            <td class="text-left">ВИКЛАДАЧ Ф.Ф.</td>
+            <td class="">КН-21</td>
+            <td class="">09:00 - 10:20</td>
+            <td class="">№9</td>
+            <td class="text-indigo-500 text-center"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
+            </svg></a></td><!--link-->
+          </tr>
+          <tr class="border-b-2 h-12 text-center">
+            <th class="font-normal">4</th>
+            <th class="font-normal text-left">ВЕБ-РОЗРОБКА</th>
+            <td class="text-left">ВИКЛАДАЧ Ф.Ф.</td>
+            <td class="">КН-21</td>
+            <td class="">09:00 - 10:20</td>
+            <td class="">№9</td>
+            <td class="text-indigo-500 text-center"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
+            </svg></a></td><!--link-->
+          </tr>
+          <tr class="h-12 text-center">
+            <th class="font-normal">5</th>
+            <th class="font-normal text-left">ПРЕДМЕТ...</th>
+            <td class="text-left">ВИКЛАДАЧ Ф.Ф.</td>
+            <td class="">КН-21</td>
+            <td class="">09:00 - 10:20</td>
+            <td class="">№9</td>
+            <td class="text-indigo-500 text-center"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
+            </svg></a></td><!--link-->
+          </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
