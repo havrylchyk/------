@@ -21,13 +21,13 @@
             </div>
         </div>    
         <div class="container rounded-2xl drop-shadow-2xl ">
-            <div class="flex justify-center mt-3">
-                <div class="flex flex-row lg:justify-between m-0 w-full w-11/12 rounded-tl-2xl rounded-tr-2xl bg-gradient-to-r from-purple-500 to-indigo-500 text-xs lg:text-base">
-                    <button class="text-xs md:text-xl py-2 md:py-4 text-white rounded-tl-2xl basis-1/5 ">ПОНЕДІЛОК</button>
-                    <button class="text-xs md:text-xl py-2 md:py-4 rounded-none basis-1/5 text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">ВІВТОРОК</button>
-                    <button class="text-xs md:text-xl py-2 md:py-4 rounded-none basis-1/5 text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">СЕРЕДА</button>
-                    <button class="text-xs md:text-xl py-2 md:py-4 rounded-none basis-1/5 text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">ЧЕТВЕР</button>
-                    <button class="text-xs md:text-xl py-2 md:py-4 basis-1/5 text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">П'ЯТНИЦЯ</button>
+            <div class="flex justify-center mt-3 overflow-x-auto">
+                <div class="flex flex-row lg:justify-between m-0 w-full rounded-tl-2xl rounded-tr-2xl bg-gradient-to-r from-purple-500 to-indigo-500 uppercase">
+                    <button class="uppercase text-xs lg:text-xl py-2 lg:py-4 text-white rounded-tl-2xl basis-1/5 md:after:content lg:after:content-['еділок'] text-xs lg:text-xl">Пон</button>
+                    <button class="uppercase text-xs lg:text-xl py-2 lg:py-4 rounded-none basis-1/5 md:after:content lg:after:content-['ТОРОК'] text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">ВІВ</button>
+                    <button class="uppercase text-xs lg:text-xl py-2 lg:py-4 rounded-none basis-1/5 md:after:content lg:after:content-['ЕДА'] text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">СЕР</button>
+                    <button class="uppercase text-xs lg:text-xl py-2 lg:py-4 rounded-none basis-1/5 md:after:content lg:after:content-['ВЕР'] text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">ЧЕТ</button>
+                    <button class="uppercase text-xs lg:text-xl py-2 lg:py-4 basis-1/5 md:after:content lg:after:content-['НИЦЯ'] text-indigo-500 bg-white hover:bg-transparent hover:text-white focus:bg-transparent focus:text-white">П'ЯТ</button>
                 </div>
             </div>
             <div class="text-xs lg:text-base overflow-x-auto">    
@@ -35,13 +35,13 @@
                     <table class="table-auto w-full whitespace-nowrap rounded-2xl bg-white drop-shadow-2xl">
                         <thead class="text-white uppercase">
                             <tr class="bg-gradient-to-r from-purple-500 to-indigo-500 text-lg">
-                                <th class="md:py-3 font-normal px-4">#</th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal text-left text-xs md:text-xl">ПРЕДМЕТ</th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal text-left text-xs md:text-xl">ВИКЛАДАЧ</th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal text-xs md:text-xl">ГРУПА</th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal text-xs md:text-xl">ЧАС</th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal md:after:content lg:after:content-['иторія'] text-xs md:text-xl">Ауд<span class="md:hidden">.</span></th>
-                                <th class="md:py-3 pr-2 lg:pr-4 font-normal text-xs md:text-xl">Покликання</th>
+                                <th class="lg:py-3 font-normal px-4">#</th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal text-left text-xs lg:text-xl">ПРЕДМЕТ</th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal text-left text-xs lg:text-xl">ВИКЛАДАЧ</th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal text-xs lg:text-xl">ГРУПА</th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal text-xs lg:text-xl">ЧАС</th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal md:after:content lg:after:content-['иторія'] text-xs lg:text-xl">Ауд<span class="md:hidden">.</span></th>
+                                <th class="lg:py-3 pr-1 md:pr-2 lg:pr-4 font-normal md:after:content lg:after:content-['икання'] text-xs lg:text-xl">Покл<span class="md:hidden">.</span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -52,7 +52,7 @@
                                 <td class="py-3 pr-2 lg:pr-4">КН-2(ПР на С#-1)</td>
                                 <td class="py-3 pr-2 lg:pr-4">09:00 - 10:20</td>
                                 <td class="py-3 pr-2 lg:pr-4">№19</td>
-                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center" href="#"> GOOGLE MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center md:before:content lg:before:content-['GOOGLE']" href="#">&nbsp;MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
                                     </svg></a>
                                  </td><!--link-->
@@ -64,7 +64,7 @@
                                 <td class="py-3 pr-2 lg:pr-4">КН-2(АМ-1)</td>
                                 <td class="py-3 pr-2 lg:pr-4">10:40 - 12:00</td>
                                 <td class="py-3 pr-2 lg:pr-4">№21</td>
-                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center md:before:content lg:before:content-['GOOGLE']" href="#">&nbsp;MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
                                     </svg></a>
                                  </td><!--link-->
@@ -76,10 +76,10 @@
                                 <td class="py-3 pr-2 lg:pr-4">КН-3(Основи<br>гарф. дизайну-1)</td>
                                 <td class="py-3 pr-2 lg:pr-4">12:30 - 13:50</td>
                                 <td class="py-3 pr-2 lg:pr-4">№1</td>
-                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center md:before:content lg:before:content-['GOOGLE']" href="#">&nbsp;MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
                                     </svg></a>
-                                </td><!--link-->
+                                 </td><!--link-->
                             </tr>
                             <tr class="border-b-2  text-center uppercase">
                                 <th class="py-3 font-normal">4</th>
@@ -88,10 +88,10 @@
                                 <td class="py-3 pr-2 lg:pr-4">КН-2 (Web- РКЧ-2)</td>
                                 <td class="py-3 pr-2 lg:pr-4 ">14:10 - 15:30</td>
                                 <td class="py-3 pr-2 lg:pr-4">№17</td>
-                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center md:before:content lg:before:content-['GOOGLE']" href="#">&nbsp;MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
                                     </svg></a>
-                                </td><!--link-->
+                                 </td><!--link-->
                             </tr>
                             <tr class="text-center uppercase">
                                 <th class="py-3 font-normal">5</th>
@@ -100,10 +100,10 @@
                                 <td class="py-3 pr-2 lg:pr-4"> КН-2(ОБДтаЗ=1)</td>
                                 <td class="py-3 pr-2 lg:pr-4">15:40 - 17:00</td>
                                 <td class="py-3 pr-2 lg:pr-4">№201</td>
-                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center" href="#">GOOGLE MEET &nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <td class="py-3 pr-2 lg:pr-4 text-indigo-500 text-center hover:text-purple-500"><a class="flex justify-items-inline justify-center md:before:content lg:before:content-['GOOGLE']" href="#">&nbsp;MEET&nbsp;&nbsp;<svg style="width:24px;height:24px" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" />
                                     </svg></a>
-                                </td><!--link-->
+                                 </td><!--link-->
                             </tr>
                          </tbody>
                     </table>
